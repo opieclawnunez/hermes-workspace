@@ -41,28 +41,48 @@
         <h2>Subscribe</h2>
         <p class="lede">Join West Valley neighbors who want better health information without the hype. I send emails when there's something worth sharing — not on a schedule, not to fill your inbox.</p>
 
-        <!-- Mailchimp Embed Form -->
-        <!-- Replace the form action URL with your Mailchimp signup form URL -->
-        <form class="field-group" action="YOUR_MAILCHIMP_FORM_URL" method="post" target="_blank" data-newsletter-form>
-          <div class="form-row">
-            <label>
-              <span class="small-meta">First name</span>
-              <input class="input" name="FNAME" type="text" placeholder="Your first name" />
-            </label>
-            <label>
-              <span class="small-meta">Email address</span>
-              <input class="input" name="EMAIL" type="email" placeholder="you@example.com" required />
-            </label>
+        <!-- MailerLite Embed Form -->
+        <div id="mlb2-41710424" class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-41710424">
+          <div class="ml-form-align-center">
+            <div class="ml-form-embedWrapper embedForm">
+              <div class="ml-form-embedBody ml-form-embedBodyDefault row-form">
+                <form class="ml-block-form" action="https://assets.mailerlite.com/jsonp/2375228/forms/188355267874784961/subscribe" data-code="" method="post" target="_blank">
+                  <div class="ml-form-formContent">
+                    <div class="ml-form-fieldRow ml-last-item">
+                      <div class="ml-field-group ml-field-email ml-validate-email ml-validate-required">
+                        <input aria-label="email" aria-required="true" type="email" class="form-control" data-inputmask="" name="fields[email]" placeholder="Email" autocomplete="email">
+                      </div>
+                    </div>
+                  </div>
+                  <input type="hidden" name="ml-submit" value="1">
+                  <div class="ml-form-embedSubmit">
+                    <button type="submit" class="primary">Subscribe</button>
+                    <button disabled="disabled" style="display: none;" type="button" class="loading">
+                      <div class="ml-form-embedSubmitLoad"></div>
+                      <span class="sr-only">Loading...</span>
+                    </button>
+                  </div>
+                  <input type="hidden" name="anticsrf" value="true">
+                </form>
+              </div>
+              <div class="ml-form-successBody row-success" style="display: none">
+                <div class="ml-form-successContent">
+                  <h4>Thank you!</h4>
+                  <p>You have successfully joined our subscriber list.</p>
+                </div>
+              </div>
+            </div>
           </div>
-          <!-- Mailchimp anti-bot field — do not remove -->
-          <div style="position: absolute; left: -5000px;" aria-hidden="true">
-            <input type="text" name="b_YOUR_AUDIENCE_ID" tabindex="-1" value="" />
-          </div>
-          <div style="margin-top:0.8rem;">
-            <button class="button" type="submit"><span class="icon-mark" data-icon="mail"></span>&nbsp;Subscribe</button>
-          </div>
-          <p class="small-meta" style="margin-top:0.8rem;">No spam. No selling your data. Unsubscribe with one click, anytime.</p>
-        </form>
+        </div>
+        <script>
+          function ml_webform_success_41710424() {
+            var $ = ml_jQuery || jQuery;
+            $('.ml-subscribe-form-41710424 .row-success').show();
+            $('.ml-subscribe-form-41710424 .row-form').hide();
+          }
+        </script>
+        <script src="https://groot.mailerlite.com/js/w/webforms.min.js?vb397d78ebaa8a0f631d35384c46d781b" type="text/javascript"></script>
+        <script>fetch("https://assets.mailerlite.com/jsonp/2375228/forms/188355267874784961/takel")</script>
 
         <h2>What to expect</h2>
         <p>I'm not going to flood your inbox. Most months you'll get one or two emails — maybe three during heat season when timely safety information matters. Every email will be written or reviewed by me, a board certified family medicine physician. Not a content mill. Not an AI. Not a marketing intern.</p>

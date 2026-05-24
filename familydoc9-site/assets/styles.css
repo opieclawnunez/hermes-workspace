@@ -148,6 +148,17 @@ main { padding: 2rem 0 3.5rem; }
 .metric .label { display: block; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.11em; color: var(--soft); }
 .metric .value { display: block; margin-top: 0.35rem; font-weight: 700; }
 .callout { border-left: 4px solid var(--accent); }
+/* MailerLite form overrides */
+.ml-form-embedWrapper { background: var(--surface) !important; border: 1px solid var(--border) !important; border-radius: var(--radius-xl) !important; box-shadow: var(--shadow-soft) !important; }
+.ml-form-embedBody { padding: 1.5rem !important; }
+.ml-form-embedContent h4 { font-family: var(--display) !important; font-size: 1.4rem !important; color: var(--ink) !important; margin: 0 0 0.5rem !important; }
+.ml-form-embedContent p { color: var(--muted) !important; font-size: 0.95rem !important; margin: 0 0 1rem !important; }
+.ml-form-fieldRow input.form-control { width: 100% !important; border: 1px solid var(--border) !important; background: var(--bg-2) !important; color: var(--ink) !important; border-radius: 14px !important; padding: 0.85rem 0.95rem !important; font-family: var(--body) !important; font-size: 1rem !important; }
+.ml-form-fieldRow input.form-control:focus { outline: 2px solid var(--accent) !important; outline-offset: 2px; }
+.ml-form-embedSubmit button.primary { background: var(--ink) !important; color: var(--bg) !important; border: none !important; border-radius: 999px !important; padding: 0.78rem 1.5rem !important; font-weight: 700 !important; font-family: var(--body) !important; font-size: 1rem !important; cursor: pointer; width: 100% !important; }
+.ml-form-embedSubmit button.primary:hover { background: var(--accent) !important; }
+.ml-form-successBody { padding: 1.5rem !important; }
+.ml-form-successContent h4 { font-family: var(--display) !important; color: var(--accent-2) !important; }
 .cta-banner { display: grid; gap: 0.7rem; align-items: start; background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 8%, var(--surface)), color-mix(in srgb, var(--accent-2) 8%, var(--surface))); }
 .cta-banner strong, .callout strong, .info-box strong { font-size: 1.03rem; }
 .footer { margin-top: 2rem; padding: 1.6rem 0 2.5rem; color: var(--muted); }
