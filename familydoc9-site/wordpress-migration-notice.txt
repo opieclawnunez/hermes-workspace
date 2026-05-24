@@ -1,0 +1,22 @@
+=== WordPress Site Notice ===
+
+Add this as a sticky banner, top-of-page notice, or homepage banner on the old WordPress site. HTML version below.
+
+--------------------------------------------------
+
+🚀 We've moved!
+
+The Family Doc Blog has a new home at docnunez.com — a completely rebuilt site with clearer content, local West Valley health resources, and a better reading experience on any device.
+
+All new articles will be published at docnunez.com, not here. If you were following us on WordPress, head over to the new site and subscribe to the newsletter so you don't miss what's coming next.
+
+👉 Visit the new site: https://docnunez.com
+
+-------------------------------------------------- (paste into WordPress Custom HTML block or notice plugin)
+
+<div style="background: #f6efe5; border: 1px solid #e2d4c4; border-radius: 12px; padding: 1.2rem 1.5rem; margin: 1rem 0; font-family: system-ui, sans-serif;">
+  <p style="margin: 0 0 0.5rem; font-size: 1.05rem; font-weight: 700; color: #1f2933;">🚀 We've moved!</p>
+  <p style="margin: 0 0 0.8rem; color: #5e6b78; font-size: 0.95rem;">The Family Doc Blog has a new home at <strong>docnunez.com</strong> — completely rebuilt with West Valley health resources, seasonal safety tips, and a better reading experience on any device.</p>
+  <p style="margin: 0 0 0.8rem; color: #5e6b78; font-size: 0.95rem;"><strong>All new articles will be published at docnunez.com</strong>, not here.</p>
+  <a href="https://docnunez.com" style="display: inline-block; background: #1f2933; color: #fff; padding: 0.7rem 1.2rem; border-radius: 999px; text-decoration: none; font-weight: 700; font-size: 0.95rem;">Visit the new site →</a>
+</div>
